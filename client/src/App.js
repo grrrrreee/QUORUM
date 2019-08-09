@@ -74,10 +74,13 @@ class App extends Component {
     }
     return (
       <div className="App">
-        <h1>Good to Go!</h1>
+        <header className="App-header">
+        <h1>Quorum Hackathon!</h1>
+        </header>
         <button id = "depositamount" onClick = {this._deposit}> Deposit </button>
-        <p>Your Truffle Box is installed and ready.</p>
         <h4>The address is: {this.state.accounts[0]}</h4>
+        <div className="todo-list-template">
+      </div>
       </div>
     );
   }
