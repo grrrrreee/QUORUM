@@ -29,13 +29,13 @@ contract Quorum {
     }
     //api 로 받아오는 부분
     //arbitrage 논리 자체는 detect가 가능하다는 것으로 논리를 펼치기
-    function balancing(uint number, uint number_2) payable public {
-        uint parameter = (number - number_2) / number * 100 ;
-        if(parameter > 15) {
-            0x74031A3c092Ec3fDced18C60eB7ab91bCD547cc1.transfer(parameter / 2);
+    function balancing(uint number_1, uint number_2) payable public {
+        uint parameter = (number_1 - number_2) / number_1 * 100 ;
+        if(parameter > 5) {
+            0xB63821320A1FA1ABf15d92C4561538e63f6ccdcC.transfer(parameter / 2);
         }
         else {
-            0x74031A3c092Ec3fDced18C60eB7ab91bCD547cc1.transfer(1);
+            0xB63821320A1FA1ABf15d92C4561538e63f6ccdcC.transfer(1);
         }
     }
     
