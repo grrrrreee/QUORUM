@@ -20,7 +20,7 @@ def printit():
 
     C = [_ticker, _ticker2, _price, difference]
     CC.append(C)
-    threading.Timer(7.0, printit).start()
+    threading.Timer(4.0, printit).start()
 
     # print(C)
     # print(CC)
@@ -46,7 +46,7 @@ def printit():
         print(A)
     else :
         print("Normal")
-    C.append(A)
+    # C.append(A)
     CC.append(C)
     print(CC)
     csvfile = pd.DataFrame(CC)

@@ -8,7 +8,7 @@ setInterval(function(){
     .on('data', function(data){
         try {
             console.log(data);
-            if(data[3]>0.17){
+            if(data[3]>0.22){
                 console.log('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!alert!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!');
             } 
         }
@@ -18,7 +18,7 @@ setInterval(function(){
     })
     .on('end',function(){
     });  
-},7000);
+},4000);
 
 fs.createReadStream('/Users/bagminseo/Desktop/coding/Blockchain/Quoroum HACK/tools/file.csv')
 .pipe(csv())
