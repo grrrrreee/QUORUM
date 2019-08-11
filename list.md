@@ -1,0 +1,13 @@
+1. https://github.com/jpmorganchase/quorum-examples
+2. https://medium.com/swlh/a-beginner-guide-to-quorum-blockchain-5930aa41f35c
+3. https://nethereum.readthedocs.io/en/latest/ethereum-and-clients/quorum/
+4. https://entethalliance.org/quorum-consortium-network-in-azure-marketplace.pdf
+5. https://developers.sap.com/tutorials/blockchain-quorum-test-smartcontract.html
+6. https://media.consensys.net/5-reasons-why-enterprise-ethereum-is-so-much-more-than-a-distributed-ledger-technology-c9a89db82cb5
+7. https://www.ludu.co/course/learn-ethereum-by-examples/building-dapps-for-private-bl
+8. https://github.com/jpmorganchase/quorum-examples/tree/master/examples/7nodes
+9. https://hub.docker.com/r/quorumengineering/quorum
+10. https://blog.vjrantal.net/2017/05/12/testing-quorum-transaction-privacy-with-truffle/
+11. https://www.goquorum.com/developers
+12. https://docs.goquorum.com/en/latest/Transaction%20Processing/Transaction%20Processing/
+13. https://github.com/jpmorganchase/quorum
